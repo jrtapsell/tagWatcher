@@ -8,7 +8,7 @@ import kotlin.browser.window
 import kotlin.js.Date
 import kotlin.js.Promise
 
-const val SOCKET_ENDPOINT = "ws://qa.sockets.stackexchange.com/"
+const val SOCKET_ENDPOINT = "wss://qa.sockets.stackexchange.com/"
 const val SOCKET_ACTION = "155-questions-active"
 const val SO_ICON = "https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png"
 
