@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            * {
+                text-align: center;
+                margin: auto;
+            }
+        </style>
+        <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkWPq/HgAEdgIl613qkwAAAABJRU5ErkJggg==">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    </head>
+    <body>
+        <h1 id="pageHeader">Tag Watcher</h1>
+        <table id="watchDetails">
+            <thead>
+                <tr>
+                    <th>Site</th>
+                    <th>Tag</th>
+                </tr>
+            </thead>
+        </table>
+        <div id="watchdog"></div>
+    </body>
+    <script src="static/js/kotlin/kotlin.js"></script>
+    <script src="static/js/kotlin/tagWatcher.js"></script>
+    <script>
+        tagWatcher.WatchController.run();
+    </script>
+</html>
